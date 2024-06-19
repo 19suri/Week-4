@@ -90,7 +90,7 @@ for (var i = 0; i < 10; i++) {
   sum = sum + i;
 }
 console.log("sum of 0 through 9 is: " + sum);
-*/
+
 
 function orderchickenwith(sidedish){
   
@@ -105,3 +105,29 @@ var x = 10;
 if ( (null) || x > 5 ) {
   console.log("Hello");
 }
+
+
+var company= new Object();
+company.name= 'google';
+company.ceo = new Object();
+company.ceo.firstname = "sundar";
+company.ceo.favcolor = "orange";
+company["stock of the company"]= 1000;
+
+console.log(company);
+
+console.log("Company CEO  name is " + company.ceo.firstname);
+console.log(company["name"]);
+*/
+
+var facebook = { 
+  name:'Facebook',
+  ceo:{
+    firstname:"mark",
+    favcolor:"blue"
+  },
+  "stock of the compay":120
+  
+};
+
+console.log(facebook);
